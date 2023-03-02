@@ -1,0 +1,33 @@
+package com.example.model
+
+data class Transaction(
+    val id : String,
+    val cardholderId : String? = null,
+    val cardholderName : String? = null,
+    val cardholderEmail : String? = null,
+    val recipientName : String? = null,
+    val recipientEmail : String? = null,
+    val recipientId : String? = null,
+    val nameOnCard : String? = null,
+    val source : String? = null,
+    val vcnLast4 : String? = null,
+    val vcnDisplayName : String? = null,
+    val type : String? = null,
+    val status : String? = null,
+    val authBillingAmountCents : Int? = null,
+    val authBillingCurrency : String? = null,
+    val authMerchantAmountCents : Int? = null,
+    val authMerchantCurrency : String? = null,
+    val clearingBillingAmountCents : Int? = null,
+    val clearingBillingCurrency : String? = null,
+    val clearingMerchantAmountCents : Int? = null,
+    val clearingMerchantCurrency : String? = null,
+    val mcc : String? = null,
+    val mccGroup : String? = null,
+    val mccDescription : String? = null,
+    val merchantName : String? = null,
+    val authedAt : String? = null,
+    val clearedAt : String? = null,
+    val creditCardId : String? = null,
+    val creditCardDisplayName : String
+)
